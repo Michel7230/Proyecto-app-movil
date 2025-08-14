@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DA_Proyecto</string>
+    <string name="contraseña">Introduce tu contraseña</string>
+    <string name="correoElectronico">Correo electronico</string>
+    <string name="nombre">Nombre</string>
+    <string name="Buscar">Buscar</string>
+    <string name="btnActualisar">Actualizar</string>
+    <string name="telefono">Numero telefonico</string>
+    <string name="btnIncio">Iniciar sesion</string>
+    <string name="bntRegistro">Registrarse</string>
+    <string name="btnMas">.</string>
+    <string name="nombreProyecto">Nuevo proyecto</string>
+    <string name="descipcionProyecto">Descripcion</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="btnCerrarSesion">Cerrar sesion</string>
+    <string name="textViewNombre">Nombre</string>
+    <string name="textViewCorreo">Correo electronico</string>
+    <string name="fecha">Fecha</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="humedad">Humedad</string>
+    <string name="riego">Regado</string>
+    <string name="hora">Hora de riego</string>
+    <string name="eliminar">Eliminar proyecto</string>
+    <string name="opciones">Selecciona una opcion</string>
+    <string name="plantaNombre">Nombre de la planta</string>
+    <string name="flotingMenu">Menu flotante</string>
+    <string name="urlGenerada">Compartir URL</string>
+
+    <string name="info">Informacion</string>
+    <string name="pantalla1">Inicio</string>
+    <string name="user">Cuenta</string>
+    <string name="datos">Estadistica</string>
+    <string name="btnOff">.</string>
+    <string name="cardTemperatura">Teperatura</string>
+    <string name="Calendar">Historial de riego</string>
+    <string name="irAlProyecto">Ir al proyecto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

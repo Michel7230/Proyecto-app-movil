@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <TableLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:padding="16dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/TextViewfecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:paddingRight="8dp"/>
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/TextViewtemperatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperatura"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:paddingRight="8dp" />
+            <TextView
+                android:id="@+id/temperaturaPromedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperatura"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/TextViewhumedad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humedad"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:paddingRight="8dp" />
+            <TextView
+                android:id="@+id/humedadSueloTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humedad"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/TexttViewestado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riego"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:paddingRight="8dp" />
+            <TextView
+                android:id="@+id/estadoRiego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riego"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/hora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hora"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:paddingRight="8dp" />
+            <TextView
+                android:id="@+id/horaRiegoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hora"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

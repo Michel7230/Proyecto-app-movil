@@ -1,4 +1,4 @@
-Proyecto escolar 
+Proyecto escolar. 
 App movil XILEMA
 
 App movil para el monitoreo de un sistema de riego.

@@ -13,9 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
-**hs_err_pid9620.log
-**hs_err_pid11588.log
-**hs_err_pid12176.log
-**hs_err_pid19248.log
-**replay_pid11588.log
-**replay_pid12176.log
+*hs_err_pid9620.log
+*hs_err_pid11588.log
+*hs_err_pid12176.log
+*hs_err_pid19248.log
+*replay_pid11588.log
+*replay_pid12176.log

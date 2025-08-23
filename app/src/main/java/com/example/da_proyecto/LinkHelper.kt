@@ -7,6 +7,6 @@ object LinkHelper {
         val monitorUrl = "/App/monitor.html?cardId=${card.id}"
         val encodedMonitorUrl = URLEncoder.encode(monitorUrl, "UTF-8")
 
-        return "https://app-prueba-a811b.web.app/index.html?redirect=$encodedMonitorUrl"
+        return "https://link-app/index.html?redirect=$encodedMonitorUrl"
     }
 }
